@@ -137,5 +137,7 @@ def verify_virtualservice(virtualservice_name, kube_command):
             print("{} pods found".format(len(pod_list)))
 
 
+
+
 if __name__ == "__main__":
     main()
